@@ -6,3 +6,8 @@ print("Hello, world.")
 
 
 
+
+from random import random
+
+
+print(type(random()))
