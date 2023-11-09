@@ -16,14 +16,14 @@ character_counter: int = 0
 
 print("Searching for " + user_character + " in " + user_word)
 
-for i in range (len(user_word)):
+for i in range(len(user_word)):
     if user_word[i] == user_character:
         print(user_character + " found at index " + str(i))
         character_counter += 1
 
 if character_counter == 0:
-    print("No instances of " +user_character+ " found in " + user_word)
+    print("No instances of " + user_character + " found in " + user_word)
 elif character_counter == 1:
-    print("1 instance of " +user_character+ " found in " + user_word)
+    print("1 instance of " + user_character + " found in " + user_word)
 else:
-    print(str(character_counter) + " instances of " +user_character+ " found in " + user_word)
+    print(str(character_counter) + " instances of " + user_character + " found in " + user_word)
